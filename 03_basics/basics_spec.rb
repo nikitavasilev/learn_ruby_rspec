@@ -48,7 +48,7 @@ describe 'crazy stuff on arrays' do
   # - with each number duplicate removed (any number should appear only once)
   # - sorted
   # BONUS : You can do this in one line less than 55 chars
-  it 'does crazy stuff on Arrays' do
+  it 'does crazy stuff on arrays' do
     expect(magic_array([1, 2, 3, 4, 5, 6]))
       .to eq([2, 4, 8, 10])
     expect(magic_array([1, [2, 3], 4, 5, 6, 23, 31, [1, 2, 3]]))
