@@ -22,5 +22,7 @@ def first_word(string)
 end
 
 def titleize(string)
-  string.split.map(&:capitalize).join(' ')
+  little_words = %w{the and} #Used for single-quoted array elements
+  string.split.each_with_index.map{|word, index| little_words.include?(word) && index > 0 ? word : word.capitalize}.join(" ")
+  #string.split.map(&:capitalize).join(' ')
 end
