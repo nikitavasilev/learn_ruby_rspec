@@ -1,6 +1,10 @@
 Test First Ruby -- RSpec 3 Edition
 ==========
 
+##Contributors
+
+Les exercices du repo pour la S2-J1 de THP ont été réalisés par [Nikita Vasilev](https://github.com/nikitavasilev), [Nathaniel Debache](https://github.com/Natdenice) et [Ysaline Macé](https://github.com/Ysalien).
+
 ### Set up instructions
 
 1. Fork this repo
